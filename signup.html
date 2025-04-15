@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fd848ef498.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Sign Up Page -->
+    <nav class="signup">
+        <div class="signup__container">
+            <a href="/signup.html" id="signup__logo">
+                SIGN UP/REGISTER<i class="fa-solid fa-user-plus"></i>
+            </a>
+            <div class="signup__form">
+                <h1>Welcome!</h1>
+                <p>Sign up to continue exploring the latest fashion trends.</p>
+                <form action="#" method="POST">
+                    <div class="form__group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="password">Retype Password</label>
+                        <input type="password" id="retype-password" name="retype-password" placeholder="Re-enter your password" required>
+                    </div>
+                    <p id="password-error" style="color: red; display: none;">Passwords do not match!</p>
+                    <button type="submit" class="form__button">Register</button>
+                </form>
+                <div class="signin__footer">
+                    <p>Already have an account? <a href="/signin.html">Sign In</a></p>
+                </div>
+        </div>
+    </div>
+      </nav>
+      <script src="app.js"></script>
+</body>
+</html>
